@@ -1,8 +1,8 @@
 # SpatPCA: Regularized Principal Component Analysis for Spatial Data
 
 [![License](https://eddelbuettel.github.io/badges/GPL2+.svg)](https://www.gnu.org/licenses/gpl-2.0.html)
-[![R build status](https://github.com/egpivo/SpatPCA/workflows/R-CMD-check/badge.svg)](https://github.com/egpivo/SpatPCA/actions)
-[![Coverage Status](https://img.shields.io/codecov/c/github/egpivo/SpatPCA/master.svg)](https://app.codecov.io/github/egpivo/SpatpCA?branch=master)
+[![R build status](https://github.com/SpaceTimeViz/SpatPCA/workflows/R-CMD-check/badge.svg)](https://github.com/SpaceTimeViz/SpatPCA/actions)
+[![Coverage Status](https://img.shields.io/codecov/c/github/SpaceTimeViz/SpatPCA/master.svg)](https://app.codecov.io/github/SpaceTimeViz/SpatpCA?branch=master)
 [![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/SpatPCA)](https://CRAN.R-project.org/package=SpatPCA)
 [![Downloads (monthly)](https://cranlogs.r-pkg.org/badges/SpatPCA?color=brightgreen)](https://www.r-pkg.org/pkg/SpatPCA)
 [![Downloads (total)](https://cranlogs.r-pkg.org/badges/grand-total/SpatPCA?color=brightgreen)](https://www.r-pkg.org/pkg/SpatPCA)
@@ -28,7 +28,7 @@ install.packages("SpatPCA")
 ```
 ### Install the Development Version from GitHub
 ```r
-remotes::install_github("egpivo/SpatPCA")
+remotes::install_github("SpaceTimeViz/SpatPCA")
 ```
 ### Compilation Requirements
 To compile C++ code with the required [`RcppArmadillo`](https://CRAN.R-project.org/package=RcppArmadillo) and [`RcppParallel`](https://CRAN.R-project.org/package=RcppParallel)  packages, follow these instructions based on your operating system:
@@ -61,7 +61,7 @@ spatpca(position, realizations)
    - Input: Realizations with the corresponding positions.
    - Output: Return the most dominant eigenfunctions automatically.
 
-For more details, refer to the [Demo](https://egpivo.github.io/SpatPCA/articles/).
+For more details, refer to the [Demo](https://SpaceTimeViz.github.io/SpatPCA/articles/).
 
 ## Authors
 - [Wen-Ting Wang](https://www.linkedin.com/in/wen-ting-wang-6083a17b) ([GitHub](https://www.github.com/egpivo))
